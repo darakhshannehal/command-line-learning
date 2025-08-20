@@ -1,0 +1,23 @@
+# OS and editor junk
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# Shell history or config
+*.log
+*.sh~
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# RStudio or Quarto
+.Rproj.user/
+*.Rhistory
+*.RData
+*.html
+
+# Snapshots or temp outputs
+snapshots/*.csv
+outputs/*.txt
