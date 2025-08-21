@@ -80,8 +80,5 @@ git push -u origin main
 
 ## Day 02
 
--   Created notes/ folder and initialized day01.md and day02.md.
-
--   Created setup_log.md.
-
--   Edited notes in **Positron**.
+-   Created notes/ folder, setup_log.md  and initialized day01.md and day02.md.
+-   Populated setup_log.md and logged Day 01 and Day 02 Positron

@@ -1,7 +1,5 @@
 ## Day 02: Folder & File Creation
 
-## Commands Executed:
-
 ### Create setup log file
 
 ```         
@@ -16,10 +14,7 @@ touch notes/day01.md
 touch notes/day02.md
 ```
 
-### Pushed commit to GitHub
-```
-git add notes/day02.md setup_log.md
-git commit -m "Add day02 notes and outline setup_log.md"
-git push -u origin main
+-   Populated setup_log.md with reproducible setup steps.
+-   Logged Day 01 and Day 02 reflections and commands in **Positron**.
 
-```
+### Pushed commit to GitHub
