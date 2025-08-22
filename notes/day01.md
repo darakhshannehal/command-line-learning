@@ -1,8 +1,7 @@
-------------------------------------------------------------------------
 
-## 📄 `notes/day01.md`
+## 📄 Day 1
 
-## Day 01: Initial Setup
+### Initial Setup
 
 ## Tasks Completed:
 
@@ -18,7 +17,6 @@
 ## Commands Practiced:
 
 ```         
-
 pwd
 cd ~/Documents
 cd command-line-learning
@@ -33,4 +31,5 @@ git branch -m master main
 git remote add origin https://github.com/darakhshannehal/command-line-learning
 git pull origin main --allow-unrelated-histories
 git push -u origin main
+
 ```
