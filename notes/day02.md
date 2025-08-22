@@ -15,6 +15,8 @@
 ### Commands Practiced:
 
 ```
+cd ~/Documents/command-line-learning # Navigate to the local project directory
+
 # Create a markdown file for setup steps
 touch setup_log.md
 
