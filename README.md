@@ -19,3 +19,7 @@ command-line-learning/
 │   └── cli_tips.md   
   
 ```
+
+## Learning Resource:
+
+[The Shell – Software Carpentry](https://www.youtube.com/watch?v=U3iNcBtycaQ&list=PLA86D04D6E0BFD2E0) : Beginner-friendly playlist introducing the Unix shell. Covers navigation, file operations, pipes, permissions, and foundational command line concepts.
