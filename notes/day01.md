@@ -1,7 +1,5 @@
 
-## 📄 Day 1
-
-### Initial Setup
+## 📄 Day 1: Initial Setup
 
 ## Tasks Completed:
 

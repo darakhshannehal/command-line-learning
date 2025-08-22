@@ -35,4 +35,12 @@ git commit -m "Add setup_log and notes for Day 01 & 02"
 
 # Push the commit to the GitHub remote
 git push -u origin main
+
+```
+### Pull changes 
+
+```
+cd ~/Documents/command-line-learning   # navigate to local repo
+git pull origin main                   # sync with GitHub updates
+
 ```

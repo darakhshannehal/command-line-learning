@@ -83,3 +83,8 @@ git push -u origin main
 - Created `setup_log.md` and `notes/` folder; initialized `day01.md` and `day02.md` for daily tracking.
 - Logged setup steps in `setup_log.md`, and documented daily notes in `notes/` using **Positron terminal**
 
+### GitHub Sync Checkpoint
+
+- Edited files directly on GitHub (`README.md`, `notes/day02.md`)
+- Synced local repo using `git pull origin main`
+
