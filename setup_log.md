@@ -2,7 +2,7 @@
 
 This file documents reproducible Git setup steps for the `command-line-learning` project.
 
-## Initial Setup (Day 01)
+## Day 01: Initial Setup
 
 ### Create GitHub Repo
 
@@ -15,29 +15,31 @@ This file documents reproducible Git setup steps for the `command-line-learning`
 
 ### Create `.gitignore`
 
--   Use Notepad to copy-paste content
+-   Open Notepad and manually add standard `.gitignore` entries
 -   Save as `.gitignore` and move into local folder
 
 ### Git Bash Navigation
-
 ```         
-
 pwd # Confirm current working directory
 
-cd \~/Documents cd command-line-learning
+cd ~/Documents
+
+cd command-line-learning
 ```
 
 ### Initialize Git and set local identity (important on shared devices)
 
 ```         
-git init git config user.name "Your Name Here" 
+git init
+
+git config user.name "Your Name Here"
+
 git config user.email "your\@email.com"
 ```
 
 ### Verify identity setup
 
 ```         
-
 git config --list # Press 'q' to exit pager if needed
 ```
 
@@ -52,22 +54,19 @@ git commit -m "Add .gitignore"
 ### Rename local branch to match GitHub default
 
 ```         
-
 git branch -m master main
 ```
 
 ### Connect to GitHub repo
 
 ```         
-
 git remote add origin https://github.com/darakhshannehal/command-line-learning
 ```
 
 ### Pull remote README.md to resolve mismatch
 
 ```         
-
-git pull origin main --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories # to merge local repo with GitHub’s README
 ```
 
 ### Push local changes to GitHub
@@ -78,7 +77,9 @@ git push -u origin main
 
 ------------------------------------------------------------------------
 
+
 ## Day 02
 
--   Created notes/ folder, setup_log.md  and initialized day01.md and day02.md.
--   Populated setup_log.md and logged Day 01 and Day 02 Positron
+- Created `setup_log.md` and `notes/` folder; initialized `day01.md` and `day02.md` for daily tracking.
+- Logged setup steps in `setup_log.md`, and documented daily notes in `notes/` using **Positron terminal**
+
