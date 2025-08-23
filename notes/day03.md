@@ -14,22 +14,30 @@
 ## Commands Practiced:
 
 ```
-- mkdir demo                 # Create a new directory
-- cd demo                   # Move into the new directory
-- nano hello                 # Create and edit a text file using Nano
-- ls                        # List contents of current directory
-- ls -a                     # Show hidden entries (e.g. . and ..)
-- ls -s                     # Show file sizes in disk blocks
-- ls -sh                    # Show human-readable file sizes
-- rm hello                   # Delete file (no undo!)
-- cd ..                     # Move up one directory
-- rm demo                   # Fails: can't remove non-empty directory
-- mv hello greeting   # Rename file (or directory)
-- mv greeting .           # Move file to current directory
-- cp                  # copy
+- cd ~/Documents/command-line-learning   # Navigate to working directory
+- ls -F                                  # List contents with indicators
+- mkdir demo                             # Create new directory
+- ls demo                                # Check contents of demo (empty)
+- cd demo                                # Enter demo directory
+- nano hello                             # Create and edit file
+- ls -s                                  # Show file size in blocks
+- ls -s -h                               # Show human-readable file size
+- rm hello                               # Delete file
+- cd ..                                  # Move up one level
+- rm demo                                # Attempt to remove directory (fails)
+- rmdir demo                             # Attempt to remove non-empty directory (fails)
+- rm demo/hello                          # Delete file inside demo
+- rmdir demo                             # Remove now-empty directory
+- mv demo/hello demo/greeting            # Rename file inside demo
+- mv demo/greeting .                     # Move file to current directory
+- cp greeting demo/hello                 # Copy file back into demo
+- rm greeting                            # Delete moved file
+- cp demo/hello .                        # Copy file again to current directory
+- ls                                     # Validate final structure
 
 ```
 ## Notes: 
+- ls -F helps distinguish files (README.md) from directories (demo/)
 - nano creates plain text files; use Ctrl+O to save, Enter, then Ctrl+X to exit
 - rm deletes permanently — no trash bin or undo
 - ls -sh is more readable than ls -s
