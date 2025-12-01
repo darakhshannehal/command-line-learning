@@ -1,4 +1,4 @@
-# 📄 Day 05: File Permissions
+## 📄 Day 05: File Permissions
 
 ## Tasks Completed:
 - Learned how Unix manages file access using users, groups, and permission categories

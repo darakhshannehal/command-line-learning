@@ -1,4 +1,4 @@
-# 📄 Day 06: Searching with `grep` and `find`
+## 📄 Day 06: Searching with `grep` and `find`
 
 ## Tasks Completed
 
