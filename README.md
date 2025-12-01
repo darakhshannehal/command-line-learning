@@ -1,6 +1,6 @@
 # command-line-learning
 
-This repository documents my beginner journey into command line tools, Git workflows, and reproducible analytics.
+This repository documents my journey into command line tools, Git workflows, and reproducible analytics.
 
 ## Project Structure
 
@@ -25,3 +25,5 @@ command-line-learning/
 - [The Shell – Software Carpentry](https://www.youtube.com/watch?v=U3iNcBtycaQ&list=PLA86D04D6E0BFD2E0) : Beginner-friendly playlist introducing the Unix shell. Covers navigation, file operations, pipes, permissions, and foundational command line concepts.
 - [The Unix Shell – Software Carpentry](https://swcarpentry.github.io/shell-novice/01-intro.html)
 - [Happy Git and GitHub for the useR – Jenny Bryan](https://happygitwithr.com/)
+
+(This repository is a work in progress)
