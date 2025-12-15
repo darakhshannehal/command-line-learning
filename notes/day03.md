@@ -23,7 +23,8 @@
 - ls -s                                  # Show file size in blocks
 - ls -s -h                               # Show human-readable file size
 - rm hello                               # Delete file
-- cd ..                                  # Move up one level
+- cd ..                                  # Move up one directory level
+- cd ~                                   # Move to your Home directory
 - rm demo                                # Attempt to remove directory (fails)
 - rmdir demo                             # Attempt to remove non-empty directory (fails)
 - rm demo/hello                          # Delete file inside demo
