@@ -25,6 +25,8 @@
 - rm hello                               # Delete file
 - cd ..                                  # Move up one directory level
 - cd ~                                   # Move to your Home directory
+- cd -                                   # Switch back to the last directory you were in
+
 - rm demo                                # Attempt to remove directory (fails)
 - rmdir demo                             # Attempt to remove non-empty directory (fails)
 - rm demo/hello                          # Delete file inside demo
