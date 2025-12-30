@@ -1,6 +1,6 @@
 # command-line-learning
 
-This repository documents my journey into command line tools, Git workflows, and reproducible analytics.
+This repository documents my learning into command line tools, Git workflows, and reproducible analytics.
 
 ## Project Structure
 
