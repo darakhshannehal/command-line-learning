@@ -8,15 +8,13 @@ This repository documents my learning into command line tools, Git workflows, an
 command-line-learning/
 ├── README.md              # Project overview
 ├── setup_log.md           # Git setup walkthrough
-├── .gitignore             # Tracks reproducibility hygiene
+├── .gitignore             
 ├── notes/                 # Daily reflections & practiced commands
 │   ├── day01.md           # Initial setup
 │   ├── day02.md           
 │   └── troubleshooting.md # Common issues and fixes
-├── commands/              # Modular CLI reference and cheatsheets
-│   ├── git.md             
-│   ├── bash.md            
-│   └── cli_tips.md   
+└── git/                   # Git-specific workflows
+    └── git-rebase.md      # Squash commits into one clean history            
   
 ```
 

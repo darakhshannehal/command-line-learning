@@ -1,3 +1,5 @@
+# Rebase All Commits
+
 # 1. Set Notepad as your Git editor (for easier editing)
 git config --global core.editor notepad
 
