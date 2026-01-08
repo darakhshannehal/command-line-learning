@@ -1,4 +1,3 @@
-
 ## 📄 Day 1: Initial Setup
 
 ### Tasks Completed:
@@ -37,5 +36,4 @@
 # Check for local changes
 - git status   # show modified, staged, or untracked files in your working directory
 - git push     # send your local commits to the remote repository
-
 ```
