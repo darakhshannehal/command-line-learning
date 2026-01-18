@@ -36,6 +36,9 @@ git commit -m "Add setup_log and notes for Day 01 & 02"
 # Push the commit to the GitHub remote
 git push -u origin main
 
+# Show recent commit history in one-line format
+git log --oneline
+
 ```
 ### Pull changes 
 
